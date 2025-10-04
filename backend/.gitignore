@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+env/
+venv/
+*.pyc
+__pycache__/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Database files (if applicable)
+*.sqlite3
+*.db
+*.db-journal
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Test reports/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker related files (if applicable)
+.dockerignore
+docker-compose.override.yml
